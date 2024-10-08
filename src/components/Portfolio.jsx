@@ -1,8 +1,16 @@
 import data from "../data/index.json";
+import placeholder from "../assets/placeholder.png";
+import placeholder1 from "../assets/placeholder1.png";
+import placeholder2 from "../assets/placeholder2.png";
 
 const Portfolio = () => {
+    const images = {
+        "1": placeholder,
+        "2": placeholder1,
+        "3": placeholder2,
+      };
   return (
-    <section className="portfolio--section" id="MyPortfolio">
+    <section className="portfolio--section" id="Portfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Recent Projects</p>
@@ -32,7 +40,7 @@ const Portfolio = () => {
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+               <img src={images[item.id]} alt={item.title} />
             </div>
             <div className="portfolio--section--card--content">
               <div>

@@ -1,3 +1,4 @@
+import raphaelhero from '../assets/raphaelhero.png';
 
 const Hero = () => {
     return (
@@ -6,19 +7,21 @@ const Hero = () => {
           <div className="hero--section--content">
             <p className="section--title">Hi, I'm Raphael</p>
             <h1 className="hero--section--title">
-              <span className="hero--section-title--color">Software</span>{" "}
+              <span className="hero--section--title--color">Software</span>{" "}
               <br />
-              Developer
+              Engineer
             </h1>
-            <p className="hero--section-description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              <br /> Dolorum, quas. Amet soluta assumenda cum?
+            <p className="hero--section--description">
+            Frontend Developer with five years of industry experience, specializing in JavaScript libraries and frameworks. Adept in UI/UX design and full-stack WordPress development.
             </p>
           </div>
-          <button className="btn btn-primary">Get In Touch</button>
+          <button className="btn btn-primary">
+             <a href="#Contact" style={{ textDecoration: "none", color: "inherit" }}>Get In Touch</a>
+          </button>
+
         </div>
         <div className="hero--section--img">
-          <img src="./img/hero_img.png" alt="Hero Section" />
+          <img src={raphaelhero} alt="Hero Section" />
         </div>
       </section>
     );

@@ -34,8 +34,8 @@ const Header = () => {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+      <div className="logo">
+        <img src="./logo.png" alt="logo" />
       </div>
       <button
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -69,7 +69,7 @@ const Header = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="Portfolio"
               className="navbar--content"
             >
               Portfolio
@@ -97,10 +97,10 @@ const Header = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="Skills"
               className="navbar--content"
             >
-              Testimonials
+              Skills
             </Link>
           </li>
         </ul>
