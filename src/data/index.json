@@ -54,21 +54,21 @@
     "portfolio": [
       {
         "id": "1",
-        "title": "Ahuse",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "title": "Little Lemon Restaurant",
+        "description": "Reserve a Table feature for the Little Lemon Restaurant website is the only active page at the moment. This website was build with React. (Fully functional restaurant in progress)",
+        "link":"https://github.com/raphofuoku/littleapp.git"
       },
       {
         "id": "2",
-        "title": "App Dashboard",
+        "title": "Portfolio Website",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "link": "https://raphaelofuoku.com/"
       },
       {
         "id": "3",
         "title": "Easy Rentn",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "link": "https://github.com/username/ahuse"
       }
     ]
   }
