@@ -10,20 +10,18 @@
           "Testing and Debugging",
           "Accessibility (a11y)",
           "APIs and Data Management",
-          "Soft Skills"
+          "Problem Solving Skill"
         ]
       },
       {
         "id": "2",
         "title": "JavaScript Frameworks",
         "description": [
-          "JavaScript (ES6+)",
           "React.Js",
           "Next.Js",
-          "Node.Js",
           "Mobile Framework (React Native)",
           "State Management Libraries",
-          "Testing Frameworks"
+          "Testing Frameworks (Jest)"
         ]
       },
       {
@@ -61,14 +59,14 @@
       {
         "id": "2",
         "title": "Portfolio Website",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "description": "Personal portfolio website, built with React. The site showcases my skills, projects, and experience as a software engineer specializing in frontend development.",
         "link": "https://raphaelofuoku.com/"
       },
       {
         "id": "3",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "https://github.com/username/ahuse"
+        "title": "Weather App",
+        "description": "A simple weather app that allows users to get the current temperature and weather conditions for any city in the world. (HTML, CSS, and JavaScript)",
+        "link": "https://github.com/raphofuoku/weather_app_v1.0.0.git"
       }
     ]
   }
