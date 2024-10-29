@@ -394,14 +394,23 @@ h3 {
 .portfolio--section--title {
   color: var(--heading-color);
 }
-.portfolio--link {
+
+.portfolio--links {
+  display: flex;
+  gap: 140px;
+  align-items: center;
+}
+
+.portfolio--link,
+.portfolio--live {
   text-decoration: none;
   display: flex;
-  gap: 16px;
+  gap: 4px;
   border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
 }
+
 .portfolio--section--card:hover path {
   stroke: #006b6a;
 }
