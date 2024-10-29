@@ -54,19 +54,22 @@
         "id": "1",
         "title": "Little Lemon Restaurant",
         "description": "Reserve a Table feature for the Little Lemon Restaurant website is the only active page at the moment. This website was build with React. (Fully functional restaurant in progress)",
-        "link":"https://github.com/raphofuoku/littleapp.git"
+        "link":"https://github.com/raphofuoku/littleapp",
+        "live":"https://github.com/raphofuoku/littleapp"
       },
       {
         "id": "2",
-        "title": "Portfolio Website",
-        "description": "Personal portfolio website, built with React. The site showcases my skills, projects, and experience as a software engineer specializing in frontend development.",
-        "link": "https://raphaelofuoku.com/"
+        "title": "Konva",
+        "description": "Konva is a web application that allows users to upload images, convert them into various formats (JPEG, PNG, WEBP), resize images with customizable dimensions or percentage, and download the processed images in high quality",
+        "link": "https://github.com/raphofuoku/konva-v1.0.0",
+        "live":"https://konva-image.netlify.app/"
       },
       {
         "id": "3",
         "title": "Weather App",
         "description": "A simple weather app that allows users to get the current temperature and weather conditions for any city in the world. (HTML, CSS, and JavaScript)",
-        "link": "https://github.com/raphofuoku/weather_app_v1.0.0.git"
+        "link": "https://github.com/raphofuoku/weather_app_v1.0.0",
+        "live":"https://github.com/raphofuoku/weather_app_v1.0.0"
       }
     ]
   }
